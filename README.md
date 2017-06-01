@@ -12,6 +12,7 @@ const BaseController = require('express-base-class');
 
 class DefaultController extends BaseController {
   default(req, res) {
+    // `this` is DefaultController instance - bound automatically
     res.status(404).send('Page doesn\'t exist');
   }
   attachRoutes() {
