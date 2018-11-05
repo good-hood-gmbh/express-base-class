@@ -2,40 +2,31 @@
   "name": "express-base-class",
   "description": "Base ES6 class for ExpressJS controllers",
   "author": "Nebenan.de <max@nebenan.de>",
-
   "license": "MIT",
   "readmeFilename": "README.md",
-
   "repository": "good-hood-gmbh/express-base-class",
   "bugs": "https://github.com/good-hood-gmbh/express-base-class/issues",
-
-  "version": "0.0.1",
-
+  "version": "1.0.0",
   "keywords": [
     "express",
     "expressjs",
     "es6"
   ],
-
   "main": "index.js",
   "engines": {
-    "node": "^6.x.x"
+    "node": "^8.x.x || ^10.x.x"
   },
-
   "scripts": {
     "test": "env TZ='Europe/Berlin' mocha"
   },
-
   "devDependencies": {
-    "eslint": "3.19.0",
-    "eslint-config-airbnb-base": "11.2.0",
-    "eslint-plugin-import": "2.3.0",
-
-    "mocha": "3.4.2",
-    "chai": "4.0.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "chai": "^4.2.0",
     "express": "^4.x.x"
   },
-
   "peerDependencies": {
     "express": "^4.x.x"
   }

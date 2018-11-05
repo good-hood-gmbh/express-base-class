@@ -9,6 +9,7 @@ describe('base/controller', () => {
       getter() {
         return this;
       }
+
       attachRoutes() {
         this.get('*', this.getter);
       }
