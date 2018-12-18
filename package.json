@@ -6,7 +6,7 @@
   "readmeFilename": "README.md",
   "repository": "good-hood-gmbh/express-base-class",
   "bugs": "https://github.com/good-hood-gmbh/express-base-class/issues",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "keywords": [
     "express",
     "expressjs",
