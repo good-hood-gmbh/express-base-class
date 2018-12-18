@@ -17,6 +17,8 @@
     "node": "^10.x.x"
   },
   "scripts": {
+    "lint": "eslint ./",
+    "prepublishOnly": "npm test && npm run lint && echo \"\\033[0;32mReady to publish\\033[0m\"",
     "test": "env TZ='Europe/Berlin' mocha"
   },
   "devDependencies": {
