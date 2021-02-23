@@ -17,7 +17,7 @@ const getMethod = (type) => (
 );
 
 const createMethods = () => (
-  ['get', 'post', 'head', 'put', 'delete', 'all'].reduce((result, type) => {
+  ['get', 'post', 'head', 'put', 'delete', 'all', 'options'].reduce((result, type) => {
     result[type] = getMethod(type);
     return result;
   }, {})

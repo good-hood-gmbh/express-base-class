@@ -19,6 +19,7 @@ describe('base/controller', () => {
   });
 
   it('instance created correctly', () => {
+    expect(instance.options).to.be.a('function');
     expect(instance.post).to.be.a('function');
     expect(instance.getter()).to.be.equal(instance);
   });
